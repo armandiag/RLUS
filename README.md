@@ -53,7 +53,7 @@ docker build -t <project_name> .
 
 docker run --rm -v /absolute/path/to/project:/app <project_name> 
 
-This command will execute the measure_time.sh script inside the container, which runs master_script.sh to process all data files in parallel.
+This command will execute the measure_time.sh script inside the container runs master_script.sh to process all data files in parallel.
 
 **Step 5**: Review the Logs: when the container finishes running, check the logs/ directory for execution logs. This directory will contain detailed logs of each task's execution time and any error messages. Also, check the results/ directory to see the rho values.
 
